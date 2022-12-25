@@ -2,7 +2,6 @@
 body {
 	margin: 0;
 	background-color: #f8f4eb;
-/*	background-color: #000;*/
 }
 
 *, *:before, *:after {
@@ -37,6 +36,10 @@ p {
 	top: 0;
 	left: 0;
 	z-index: 1000;
+}
+
+.logo {
+
 }
 
 /* Nav */
@@ -169,8 +172,18 @@ p {
 
 	height: 200px;
 
-	background: #31344e url("img/pre-footer.png") center no-repeat;
+	background: #272727 url("img/pre-footer.png") center no-repeat;
 	background-size: cover;
+}
+
+.footer__sign {
+	padding-top: 80px;
+
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+    color: #c5a45a;
 }
 
 /* Work */
