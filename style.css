@@ -1,0 +1,186 @@
+
+body {
+	margin: 0;
+	background-color: #f8f4eb;
+/*	background-color: #000;*/
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 10px;
+	font-family: 'Lora', serif;
+}
+
+/* Container */
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1110px;
+}
+
+/* Header */
+
+.header {
+	width: 100%;
+	height: 100px;
+	padding-top: 44px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+/* Nav */
+
+/* Intro */
+
+.intro {
+	padding-top: 155px;
+	height: 820px;
+
+	background: #31344e url("img/intro-bg.png") center no-repeat;
+	background-size: cover;
+}
+
+.intro__inner {
+	display: flex;
+	justify-content: end;
+}
+
+.intro__quote {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.35;
+
+	color: #F8F4EB;
+}
+
+.intro_img {
+	display: flex;
+	justify-content: end;
+}
+
+/* Main */
+
+.main {
+
+}
+
+.main__text {
+	font-size: 18px;
+}
+
+.main__head {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 1.2;
+	text-align: center;
+	padding-bottom: 14px;
+}
+
+.main__inner {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+}
+
+.main__img {
+	height: 600px;
+}
+
+.img__left {
+	margin-left: 100px;
+}
+
+.img__right {
+	margin-right: 100px;
+}
+
+.main__who {
+	padding-top: 100px;
+}
+
+.main__who h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.main__who h2 {
+	font-family: 'Lora';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 1.28;
+	text-align: center;
+}
+
+
+
+/* Footer */
+
+.footer {
+	height: 50vh;
+	background-color: #272727;
+}
+
+/* Work */
+
+.main__work {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.work__text {
+	font-size: 16px;
+    line-height: 1.88;
+    font-weight: 400;
+}
+
+.work__text__b {
+	font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+/* =================================
+			Page Requiem 
+*/
+
+.intro__requiem {
+
+	background: #31344e url("img/Kuzma_Petrov-Vodkin._Portrait_of_Anna_Akhmatova._1922.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.intro__inner__requiem {
+	
+}
+
+
+
+
+
+
+
+
