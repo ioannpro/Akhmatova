@@ -216,15 +216,34 @@ p {
 
 .intro__requiem {
 
-	background: #31344e url("img/Kuzma_Petrov-Vodkin._Portrait_of_Anna_Akhmatova._1922.jpg") center no-repeat;
+	background: #31344e url("img/intro-bg-3.png") center no-repeat;
 	background-size: cover;
 }
 
-.intro__inner__requiem {
-	
+/* =================================
+			Page Creation 
+*/
+
+.intro__creation {
+
+	background: #31344e url("img/intro-bg-4.png") center no-repeat;
+	background-size: cover;
 }
 
+/* =================================
+			Page Bio
+*/
 
+.intro__bio {
+	padding-top: 250px;
+	background: #31344e url("img/intro-bg-2.png") center no-repeat;
+	background-size: cover;
+}
+
+.intro__inner__bio {
+	display: flex;
+	justify-content: start;
+}
 
 
 
