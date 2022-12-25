@@ -74,11 +74,12 @@ p {
 /* Main */
 
 .main {
-
+	padding-bottom: 60px;
 }
 
 .main__text {
 	font-size: 18px;
+	line-height: 1.4;
 }
 
 .main__head {
@@ -109,6 +110,32 @@ p {
 	margin-right: 100px;
 }
 
+.main__link {
+	font-family: 'Lora', sans-serif;
+	font-size: 17px;
+
+	color: #c09c4b;
+	text-decoration: none;
+	opacity: .75;
+
+	transition: .2s;
+}
+
+.main__link:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+.main__title { 
+	padding: 30px 0;
+	font-family: 'Lora', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+
+	border-bottom: 1px solid #181308;
+}
+
 .main__who {
 	padding-top: 100px;
 }
@@ -131,8 +158,6 @@ p {
 	text-align: center;
 }
 
-
-
 /* Footer */
 
 .footer {
@@ -140,9 +165,18 @@ p {
 	background-color: #272727;
 }
 
+.pre__footer {
+
+	height: 200px;
+
+	background: #31344e url("img/pre-footer.png") center no-repeat;
+	background-size: cover;
+}
+
 /* Work */
 
 .main__work {
+	padding-top: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
